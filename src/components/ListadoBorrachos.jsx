@@ -5,7 +5,7 @@ import "../styles/app.css";
 
 const ListadoBorrachos = ({ borrachos, setBorracho, eliminarBorracho }) => {
   return (
-    <div className="md:w-3/5 text-center bg-indigo-800 rounded-md md:rounded-l-none md:rounded-r-md text-white md:h-screen md:overflow-y-auto scrollModi">
+    <div className="md:w-3/5 text-center bg-purple-800 rounded-md md:rounded-l-none md:rounded-r-md text-white md:h-screen md:overflow-y-auto scrollModi">
       {borrachos.length ? (
         <>
           <div className="heading my-4 z-10 relative">

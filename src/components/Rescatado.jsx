@@ -14,7 +14,7 @@ const Rescatado = ({borracho, setBorracho , eliminarBorracho}) => {
   }
 
   return (
-    <li className="bg-sky-700 mx-5 p-3 rounded-md mb-5 shadow-md">
+    <li className="bg-indigo-900 mx-5 p-3 rounded-md mb-5 shadow-md">
       <div className="md:flex items-center gap-3 mb-2">
         <h2 className="font-bold "><FontAwesomeIcon icon={faUser} /> Nombre del Borracho: </h2>
         <span className="font-medium text-lg md:text-base "> {nombre} </span>

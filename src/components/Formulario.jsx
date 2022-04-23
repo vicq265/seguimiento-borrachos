@@ -121,7 +121,7 @@ const Formulario = ({borrachos ,setBorrachos, borracho, setBorracho}) => {
   return (
     <div className="md:w-2/5 text-center bg-gray-200 rounded-md md:rounded-r-none md:rounded-l-md md:h-screen ">
         <div className="heading my-4">
-            <h2 className="text-3xl font-bold">Seguimientos <span className="text-indigo-700 ">Borrachos</span></h2>
+            <h2 className="text-3xl font-bold">Seguimientos <span className="text-purple-900 ">Borrachos</span></h2>
             <span className="block font-semibold">{borracho.id ? ' Estas editando el Borracho' : 'Añade el borracho a rescatar'}</span>
         </div>
         <div className="formulario px-3">
@@ -211,7 +211,7 @@ const Formulario = ({borrachos ,setBorrachos, borracho, setBorracho}) => {
                 
                 <input
                     type="submit"
-                    className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors mb-5 rounded-sm"
+                    className="bg-purple-700 w-full p-3 text-white uppercase font-bold hover:bg-purple-800 cursor-pointer transition-colors mb-5 rounded-sm"
                     value={borracho.id ? 'Editando el Borracho' : 'Agregar Borracho'}
                 />
             </form>
