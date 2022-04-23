@@ -1,0 +1,56 @@
+
+.scrollModi {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .scrollModi::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+  
+  .scrollModi::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+}
+
+.scrollModi::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}
+  
+  /* Track */
+/* .scrollModi::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+} */
+   
+  /* Handle */
+/* .scrollModi::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+} */
+  
+  /* Handle on hover */
+/* .scrollModi::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+} */
