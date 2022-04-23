@@ -16,7 +16,7 @@ const ListadoBorrachos = ({ borrachos, setBorracho, eliminarBorracho }) => {
           </div>
 
           <div className="">
-            <ul className="lista text-center ">
+            <ul className="lista text-center relative z-10">
               {borrachos.map((borracho) => (
                 <Rescatado 
                   key={borracho.id}
