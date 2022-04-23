@@ -212,7 +212,7 @@ const Formulario = ({borrachos ,setBorrachos, borracho, setBorracho}) => {
                 <input
                     type="submit"
                     className="bg-purple-700 w-full p-3 text-white uppercase font-bold hover:bg-purple-800 cursor-pointer transition-colors mb-5 rounded-sm"
-                    value={borracho.id ? 'Editando el Borracho' : 'Agregar Borracho'}
+                    value={borracho.id ? 'Guardar Cambios' : 'Agregar Borracho'}
                 />
             </form>
         </div>
