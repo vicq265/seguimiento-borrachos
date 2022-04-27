@@ -15,7 +15,7 @@ const ListadoBorrachos = ({ borrachos, setBorracho, eliminarBorracho }) => {
             </span>
           </div>
 
-          <div className="">
+          <div className="py-2">
             <ul className="lista text-center relative z-10">
               {borrachos.map((borracho) => (
                 <Rescatado 

@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className="App bg-gray-100 h-screen ">
+    <div className="App bg-gray-100 h-full md:h-screen ">
       <Header />
       <div className="mt-10 md:flex px-5 pb-10">
         <Formulario 
